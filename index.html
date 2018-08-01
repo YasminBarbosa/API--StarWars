@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style>
+      .col-md-7{
+        margin-left: 22%;
+        margin-top: 5%;
+        border: 2px solid yellow;
+        border-radius: 10px;
+        background-color: white ;
+      }
+      #sw{
+        margin-left: 30%;
+        width: 35%;
+        height: 30%;
+      }
+      body{
+        background-image: url('stars.jpg');
+      }
+
+  </style>
+        <meta charset="utf-8">
+        <title> API -SW</title>
+        <link href="" type="text/css" />
+        <link href="" type="text/css" />
+        <link href="" type="text/css" />
+        <script src="starwars.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <img src="sw.png" id="sw">
+                <div class="col-md-7">
+                 <div class="form-group">
+                  <label for="sel1"><h3><b>Saiba em qual filme o personagem aparece</b></h3></label>
+                  <select class="form-control" name="personagens" id="personagens" onchange="mostrar_filmes">
+                    <option>Luke Skywalker</option>
+                    <option>C-3PO</option>
+                    <option>R2-D2</option>
+                    <option>4</option>
+                  </select>
+                    <br>
+                  <ul id="filmes">
+                      <li>FILME 1</li>
+                      <li>FILME 2</li>
+                      <li>FILME 3</li>
+                  </ul>
+
+                  <p> Créditos: https://swapi.co/</p>
+                  <p>Desenvolvido por: Yasmin Barbosa</p>
+                </div> 
+                </div>           
+            </div>
+        </div>
+        
+</html>
